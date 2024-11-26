@@ -1,0 +1,18 @@
+
+#sample cicd
+
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - development
+      - production
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      # ...additional steps...
