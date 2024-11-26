@@ -62,8 +62,9 @@ git push origin feature/updatefeature
 ```
 8. **Create a Pull Request, get approval, and merge (PR)**
 - Navigate to the repository on GitHub.
-- Select the feature/updatefeature branch and create a PR against the dev branch.
-- Provide a descriptive title and detailed description of your changes.
+- Select the feature/updatefeature branch and create a PR against the dev branch. Notification "Compare & pull request"
+- Provide a descriptive title and detailed description of your changes. The changed file will be displayed below.
+- Create a Pull request
 - The repository maintainers may review your pull request and provide feedback. You can assign a reviewer
 
 9. Review and Merge:
@@ -74,9 +75,9 @@ git push origin feature/updatefeature
 - After merging, delete your feature branch locally and remotely
 Locally
 ```
-git branch -d feature/update-readme
+git branch -d feature/updatefeature
 ```
-Remotely
+Remotely (On UI: Delete branch)
 ```
 git push origin --delete feature/updatefeature
 ```
